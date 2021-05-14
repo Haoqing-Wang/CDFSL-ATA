@@ -40,6 +40,7 @@ def evaluate(novel_loader, n_way=5, n_support=5):
     else:
         model.load_state_dict(state)
 
+    model.eval()
     for ti, (x, _) in enumerate(novel_loader):  # x:(5, 20, 3, 224, 224)
         x = x.cuda()
         n_query = x.size(1) - n_support
