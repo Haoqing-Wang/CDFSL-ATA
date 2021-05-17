@@ -39,8 +39,10 @@ def evaluate(novel_loader, n_way=5, n_support=5):
         model.load_state_dict(model_params)
     else:
         model.load_state_dict(state)
-
-    model.eval()
+        
+    # For TPN model, we compute Batch Norm statistics from the test-time support set, not the exponential moving averages.
+    if params.method != 'TPN':
+        model.eval()
     for ti, (x, _) in enumerate(novel_loader):  # x:(5, 20, 3, 224, 224)
         x = x.cuda()
         n_query = x.size(1) - n_support
