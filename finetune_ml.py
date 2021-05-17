@@ -66,7 +66,6 @@ def finetune(novel_loader, n_pseudo=75, n_way=5, n_support=5):
         torch.cuda.empty_cache()
 
         # Inference process
-        model.eval()
         n_query = x.size(1) - n_support
         model.n_query = n_query
         yq = np.repeat(range(n_way), n_query)
