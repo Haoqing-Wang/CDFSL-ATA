@@ -16,11 +16,19 @@ Few-shot classification aims to recognize unseen classes with few labeled sample
 
 If you use this code for your research, please cite our paper:
 ```
-@article{wang2021cross,
-  title={Cross-Domain Few-Shot Classification via Adversarial Task Augmentation},
-  author={Wang, Haoqing and Deng, Zhi-Hong},
-  journal={arXiv preprint arXiv:2104.14385},
-  year={2021}
+@inproceedings{ijcai2021-149,
+  title     = {Cross-Domain Few-Shot Classification via Adversarial Task Augmentation},
+  author    = {Wang, Haoqing and Deng, Zhi-Hong},
+  booktitle = {Proceedings of the Thirtieth International Joint Conference on
+               Artificial Intelligence, {IJCAI-21}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Zhi-Hua Zhou},
+  pages     = {1075--1081},
+  year      = {2021},
+  month     = {8},
+  note      = {Main Track}
+  doi       = {10.24963/ijcai.2021/149},
+  url       = {https://doi.org/10.24963/ijcai.2021/149},
 }
 ```
 
