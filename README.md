@@ -1,7 +1,7 @@
 # Cross-Domain Few-Shot Classification via Adversarial Task Augmentation
 PyTorch implementation of:
 <br>
-[**Cross-Domain Few-Shot Classification via Adversarial Task Augmentation**](http://arxiv.org/abs/2104.14385)
+[**Cross-Domain Few-Shot Classification via Adversarial Task Augmentation**](https://www.ijcai.org/proceedings/2021/0149.pdf)
 <br>
 
 Haoqing Wang, [Zhi-hong Deng](http://www.cis.pku.edu.cn/jzyg/szdw/dzh.htm)
