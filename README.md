@@ -6,7 +6,7 @@ PyTorch implementation of:
 
 Haoqing Wang, [Zhi-hong Deng](http://www.cis.pku.edu.cn/jzyg/szdw/dzh.htm)
 
-IJCAI 2021 Main Track
+IJCAI 2021
 
 ## Abstract
 
