@@ -1,12 +1,17 @@
 # Cross-Domain Few-Shot Classification via Adversarial Task Augmentation
-PyTorch implementation of:
+PyTorch implementation of
+
+IJCAI 2021:
 <br>
 [**Cross-Domain Few-Shot Classification via Adversarial Task Augmentation**](https://www.ijcai.org/proceedings/2021/0149.pdf)
 <br>
-
 Haoqing Wang, [Zhi-hong Deng](http://www.cis.pku.edu.cn/jzyg/szdw/dzh.htm)
 
-IJCAI 2021
+Artificial Intelligence 2023:
+<br>
+[**Towards well-generalizing meta-learning via adversarial task augmentation**](https://www.sciencedirect.com/science/article/pii/S0004370223000218)
+<br>
+Haoqing Wang, Huiyu Mai, Yuhang Gong, [Zhi-hong Deng](http://www.cis.pku.edu.cn/jzyg/szdw/dzh.htm)
 
 ## Abstract
 
@@ -29,6 +34,17 @@ If you use this code for your research, please cite our paper:
   note      = {Main Track}
   doi       = {10.24963/ijcai.2021/149},
   url       = {https://doi.org/10.24963/ijcai.2021/149},
+}
+```
+and
+```
+@article{wang2023towards,
+  title={Towards well-generalizing meta-learning via adversarial task augmentation},
+  author={Wang, Haoqing and Mai, Huiyu and Gong, Yuhang and Deng, Zhi-Hong},
+  journal={Artificial Intelligence},
+  pages={103875},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
 
